@@ -41,6 +41,10 @@ def get_account_id(assignee_email):
     # #comentario: Obtém o accountId de um usuário a partir do email
     pass
 
+#Função que busca histórico do chamado para verificar se o mesmo ja foi passado para algum analista presente para atribuir
+def obter_historico_chamado(issue_key):
+    # #comentário: Obtém a chave, e busca o histórico. Retornando uma lista de analistas que interagiram no chamado
+
 # Função para obter o ID da primeira transição de status disponível
 def get_first_transition_id(issue_key):
     # #comentario: Obtém o ID da primeira transição de status disponível para um chamado
