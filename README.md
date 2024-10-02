@@ -9,6 +9,9 @@ get_account_id(assignee_email)
 Obtém o ID de conta do usuário a partir do seu email.
 get_first_transition_id(issue_key)
 
+Obtém histórico do chamado para melhorar a distribuição.
+obter_historico_chamado(issue_key)
+
 Obtém o ID da primeira transição de status disponível para um chamado.
 adicionar_comentario(issue_key, comentario)
 
